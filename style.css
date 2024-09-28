@@ -1,0 +1,17 @@
+.button{
+    border-radius: 4px;
+    border: 1px solid #01996D;
+
+    background: #01996D
+    color: #fff;
+}
+
+.button:hover
+.button:focus{
+    background-color: blueviolet;
+    border: 1px solid blueviolet;
+}
+
+a:visited{
+    color: #01996d;
+}
