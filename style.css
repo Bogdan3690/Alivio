@@ -1,40 +1,29 @@
-button{
-    border-radius: 10px;
-    border: 4px solid #01996D;
-    background: #01996D;
-    color: black;
-}
-/* poprosit uchitely skinut pravelinuy vareant \/\/\/\/\/\/*/
-.button:hover
-.button:focus{
-    background-color: rgb(255, 0, 0);
-    border: 10px solid rgb(0, 26, 255);
-}
-/* //////////////\/\/\/\/\/\/\/\/\/\/\/\////////////////// */
-
-a:visited{
-    color: #000000;
+:root{
+    --title-color: #01996D;
+    --secondary-title-color: #000;
+    --main-background-color:#FFF; 
+    --secondary-background-color:#245852;
+    --text-color:#424242;
 }
 
-.background{
-    background: #01996D33;
+body{
+    color: var(--text-color);
+    background-color: var(--main-background-color);
 }
 
-h1{
-    color: #01996D;
+.kayla.section{
+    background-color: var(--secondary-background-color);
+    color: var(--main-background-color);
 }
-
-.Kayla{
-    background: #245852;
-    border: 3px solid #01996D;
-}
-/* ???????????????????????????? */
-.section{
-    background: ./img/Sun;
-}
-/* ???????????????????????????? */
 
 footer{
-    background: #245852;
-    color: rgb(255, 255, 255);
+    background-color: var(--secondary-background-color);
+}
+
+.title{
+    color: var(--title-color);
+}
+
+.kayla .title{
+    color: var(--main-background-color);
 }
