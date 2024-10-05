@@ -11,6 +11,11 @@ body{
     background-color: var(--main-background-color);
 }
 
+ul,a{
+    list-style: none;
+    text-decoration: none;
+}
+
 .kayla.section{
     background-color: var(--secondary-background-color);
     color: var(--main-background-color);
@@ -25,5 +30,13 @@ footer{
 }
 
 .kayla .title{
+    color: var(--main-background-color);
+}
+
+footer a{
+    color: var(--main-background-color);
+}
+
+footer{
     color: var(--main-background-color);
 }
