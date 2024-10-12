@@ -8,6 +8,7 @@
 
 
 
+
 /* Main style site */
 body{
     color: var(--text-color);
@@ -20,6 +21,11 @@ body{
     background-color: var(--title-color);
     color: var(--main-background-color);
     border: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 115px;
+    height: 35px;
 }
 .button:hover,.button:focus{
     background-color: var(--main-background-color);
