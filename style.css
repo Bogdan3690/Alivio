@@ -13,10 +13,18 @@
 body{
     color: var(--text-color);
     background-color: var(--main-background-color);
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
+
 .title{
     color: var(--title-color);
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 78.5px;
 }
+
 .button{
     background-color: var(--title-color);
     color: var(--main-background-color);
@@ -27,10 +35,12 @@ body{
     width: 115px;
     height: 35px;
 }
+
 .button:hover,.button:focus{
     background-color: var(--main-background-color);
     color: var(--title-color);
 }
+
 ul,a{
     list-style: none;
     text-decoration: none;
@@ -64,6 +74,11 @@ ul,a{
 /* Hero section */
 .hero-title{
     color: var(--title-color);
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
 }
 
 /* How it works section*/
@@ -87,3 +102,19 @@ footer a{
 footer{
     background-color: var(--secondary-background-color);
 }
+
+
+
+
+
+
+
+
+
+
+/* - Оформлення тексту
+- text-transform: none/capitalize/uppercase/lowercase/inherit/initial;
+- text-indent: 20px/15%/inherit
+-  text-decoration: none | underline | line-through | overline
+-  text-align: left | right | center | justify
+- text-shadow​ */
