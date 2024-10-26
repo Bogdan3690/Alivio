@@ -6,7 +6,15 @@
     --text-color:#424242;
 }
 
+html{
+    box-sizing: border-box;
+}
 
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
 
 /* Main style site */
 body{
@@ -15,6 +23,11 @@ body{
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+
+ul,p,h1,h2,h3{
+    margin: 0;
+    padding: 0;
 }
 
 .title{
@@ -75,16 +88,20 @@ line-height: normal;
 .hero-title{
     color: var(--title-color);
     font-family: Lato;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 24px;
-    text-align: left;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 440px;
+    margin-bottom: 30px;
 }
 
 .text{
     color: #484848;
 font-size: 20px;
 line-height: 157%;
+width: 420px;
+margin-bottom: 18px;
 }
 
 /* How it works section*/
@@ -93,8 +110,15 @@ line-height: 157%;
     color: var(--main-background-color);
 }
 
+.kayla-text{
+    width: 550px;
+    margin-bottom: 57px;
+}
+
 .kayla .title{
     color: var(--main-background-color);
+    width: 580px;
+    margin-bottom: 33px;
 }
 
 .steps-title{
