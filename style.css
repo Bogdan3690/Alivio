@@ -8,7 +8,6 @@
 
 
 
-
 /* Main style site */
 body{
     color: var(--text-color);
@@ -30,7 +29,7 @@ body{
     color: var(--main-background-color);
     text-align: center;
     font-size: 20px;
-    line-height: 25px; /* 125% */
+    line-height: 25px;
 }
 
 .button:hover,.button:focus{
