@@ -155,9 +155,21 @@ margin-bottom: 18px;
 }
 
 /* How it works section*/
+.kayla .container{
+    display: flex;
+    gap: 31px;
+    width: 1506px;
+}
+
+.info{
+    width: 580px;
+}
+
 .kayla.section{
     background-color: var(--secondary-background-color);
     color: var(--main-background-color);
+    padding-top: 229px;
+    padding-bottom: 176px;
 }
 
 .kayla-text{
