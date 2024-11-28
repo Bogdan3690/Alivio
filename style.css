@@ -155,6 +155,30 @@ margin-bottom: 18px;
 }
 
 /* How it works section*/
+.section-part .title{
+    width: 584px;
+}
+
+.section-part{
+    display: flex;
+    gap: 136px;
+}
+
+.how-it-works-text{
+    width: 671px;
+}
+
+.steps-list{
+    display: flex;
+    gap: 95px;
+}
+
+.steps-item{
+    flex-basis: 382px;
+}
+
+
+/* Kayla */
 .kayla .container{
     display: flex;
     gap: 31px;
