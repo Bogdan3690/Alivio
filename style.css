@@ -36,7 +36,7 @@ ul,a{
 }
 
 section{
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
 .container{
@@ -133,6 +133,9 @@ padding-bottom: 30px;
 .section.hero{
     padding-bottom: 336px;
     padding-top: 175px;
+    background-image: url(./Img/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .hero-title{
