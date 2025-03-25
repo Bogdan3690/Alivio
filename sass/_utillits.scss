@@ -1,0 +1,28 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+
+/* Main style site */
+body{
+    color: var(--text-color);
+    background-color: var(--main-background-color);
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+ul,p,h1,h2,h3{
+    margin: 0;
+    padding: 0;
+}
+
+ul,a{
+    list-style: none;
+    text-decoration: none;
+}

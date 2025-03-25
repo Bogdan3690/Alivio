@@ -1,0 +1,55 @@
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    color: var(--title-color);
+}
+
+.list{
+    display: flex;
+    width: 700px;
+    gap: 72px;
+}
+
+/* .nav .item:not(:last-child){ */
+    /* margin-right: 72px; */
+/* } */
+
+/* .nav .item + .item{
+    margin-right: 72px;
+} */
+
+
+/* Navigation */
+.link{
+display: inline-block;
+color: var(--secondary-title-color);
+font-size: 20px;
+font-weight: 500;
+line-height: normal;
+padding-top: 30px;
+padding-bottom: 30px;
+&:hover, &:focus{ 
+    color: var(--title-color);
+}
+}
+
+/* Autofication */
+.auth-list{
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+
+.auth-button{
+    background-color: transparent;
+    border: transparent;
+    color: var(--secondary-title-color);
+    &:hover, &:focus{
+        background-color: var(--secondary-title-color);
+        color: var(--main-background-color);
+    }
+}
