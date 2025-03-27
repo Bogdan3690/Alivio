@@ -1,0 +1,17 @@
+.section.hero{
+    padding-bottom: 336px;
+    padding-top: 175px;
+    background: linear-gradient(113deg, #FFF 18.15%, rgba(0, 0, 0, 0) 53.07%), url(./Img/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hero-title{
+    color: var(--title-color);
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 440px;
+    margin-bottom: 30px;
+}

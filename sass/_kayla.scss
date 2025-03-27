@@ -1,0 +1,33 @@
+
+.kayla .container{
+    display: flex;
+    gap: 31px;
+    width: 1506px;
+}
+
+.info{
+    width: 580px;
+}
+
+.kayla.section{
+    background-color: var(--secondary-background-color);
+    color: var(--main-background-color);
+    padding-top: 229px;
+    padding-bottom: 176px;
+}
+
+.kayla-text{
+    width: 550px;
+    margin-bottom: 57px;
+}
+
+.kayla .title{
+    color: var(--main-background-color);
+    width: 580px;
+    margin-bottom: 33px;
+}
+
+.kayla.section .button{
+    width: 240px;
+    height: 65px;
+}
