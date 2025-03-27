@@ -1,0 +1,41 @@
+.product .container{
+    display: flex;
+    gap: 86px;
+    height: 648px;
+    width: 1370px;
+    justify-content: center;
+}
+
+.product-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.our-product{
+    margin-top: 120px;
+}
+
+.product-title{
+    width: 584px;
+    color: #01996D;
+font-family: Georgia;
+font-size: 50px;
+font-weight: 700;
+line-height: 157%;
+padding-bottom: 20px;
+padding-top: 10px;
+}
+
+.product-text{
+    width: 530px;
+    padding-bottom: 40px;
+}
+
+.product-info button{
+    width: 227px;
+    height: 65px;
+}
+
+.product-img{
+    justify-content: start;
+}

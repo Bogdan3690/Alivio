@@ -1,0 +1,38 @@
+.section-part .title{
+    width: 584px;
+}
+
+.section-part{
+    display: flex;
+    gap: 136px;
+}
+
+.steps-list{
+    display: flex;
+    gap: 95px;
+    height: 830px;
+}
+
+.steps-item{
+    flex-basis: 382px;
+}
+
+.steps-list .steps-item:nth-child(2){
+    align-self: flex-end
+}
+
+
+
+.steps-title{
+    color: var(--secondary-title-color);
+}
+
+.how-it-works-text{
+    width: 671px;
+    @extend %text-placeholder;
+}
+
+.steps-text{
+    margin-bottom: 37px;
+    @extend %text-placeholder;
+}
